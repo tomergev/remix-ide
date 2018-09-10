@@ -13,7 +13,7 @@ module.exports = {
     'start_process': false,
     'server_path': '',
     'log_path': '',
-    'host': '127.0.0.1',
+    'host': '172.16.4.5',
     'port': 4444,
     'cli_args': {
       'webdriver.chrome.driver': '',
