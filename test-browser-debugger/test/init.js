@@ -1,7 +1,7 @@
 module.exports = function (browser, callback) {
   extendBrowser(browser)
   browser
-    .url('http://127.0.0.1:8080')
+    .url('http://172.16.4.5:8080')
     .injectScript('test-browser-debugger/resources/insertTestWeb3.js', function () {
       // wait for the script to load test web3...
       console.log('waiting for script ..')
